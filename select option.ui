@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(35, 25, 66);
+color: rgb(226, 213, 214);</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>30</y>
+     <width>426</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 63 28pt &quot;Montserrat SemiBold&quot;;</string>
+   </property>
+   <property name="text">
+    <string>SELECT YOUR OPTION</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="hire">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>150</y>
+     <width>301</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(224, 159, 62);
+color: rgb(26, 27, 27);
+font: 57 12pt &quot;Montserrat Medium&quot;;</string>
+   </property>
+   <property name="text">
+    <string>HIRE AN EMPLOYEE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fire">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>230</y>
+     <width>301</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(224, 159, 62);
+color: rgb(26, 27, 27);
+font: 57 12pt &quot;Montserrat Medium&quot;;</string>
+   </property>
+   <property name="text">
+    <string>FIRE AN EMPLOYEE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="update1">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>310</y>
+     <width>301</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(224, 159, 62);
+color: rgb(26, 27, 27);
+font: 57 12pt &quot;Montserrat Medium&quot;;</string>
+   </property>
+   <property name="text">
+    <string>UPDATE DETAILS</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="search">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>150</y>
+     <width>301</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(224, 159, 62);
+color: rgb(26, 27, 27);
+font: 57 12pt &quot;Montserrat Medium&quot;;</string>
+   </property>
+   <property name="text">
+    <string>SEARCH EMPLOYEE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="contact">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>230</y>
+     <width>301</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(224, 159, 62);
+color: rgb(26, 27, 27);
+font: 57 12pt &quot;Montserrat Medium&quot;;</string>
+   </property>
+   <property name="text">
+    <string>CONTACT EMPLOYEE</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="tree">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>310</y>
+     <width>301</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(224, 159, 62);
+color: rgb(26, 27, 27);
+font: 57 12pt &quot;Montserrat Medium&quot;;</string>
+   </property>
+   <property name="text">
+    <string>TREE STRUCTURE</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

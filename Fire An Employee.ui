@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>500</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(35, 25, 66);
+color: rgb(226, 213, 214);</string>
+  </property>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>50</y>
+     <width>379</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 63 28pt &quot;Montserrat SemiBold&quot;;</string>
+   </property>
+   <property name="text">
+    <string>FIRE AN EMPLOYEE</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="eid">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>150</y>
+     <width>411</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(94, 84, 142);
+border: None;
+padding:8px;
+color: rgb(226, 213, 214);
+font: 12pt &quot;Montserrat&quot;;</string>
+   </property>
+   <property name="placeholderText">
+    <string>Employee ID</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="fire">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>250</y>
+     <width>281</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(224, 159, 62);
+color: rgb(26, 27, 27);
+font: 57 12pt &quot;Montserrat Medium&quot;;</string>
+   </property>
+   <property name="text">
+    <string>FIRE</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
